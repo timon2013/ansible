@@ -1,7 +1,5 @@
 ---
 - hosts: 193.107.89.89
-  roles:
-  - nano_highlighting
 
 - name: Create file if don't exists
   file:
