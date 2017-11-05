@@ -5,6 +5,6 @@
 
 - name: Create file if don't exists
   file:
-  path: /root/.nanorc
+    path: /root/.nanorc
     state: touch
     mode: 0644
