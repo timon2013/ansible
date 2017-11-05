@@ -1,8 +1,4 @@
 ---
 - hosts: 193.107.89.89
-
-- name: Create file if don't exists
-  file:
-    path: /root/.nanorc
-    state: touch
-    mode: 0644
+  tasks:
+  - file: path=/root/.nanorc state=touch mode=0644
